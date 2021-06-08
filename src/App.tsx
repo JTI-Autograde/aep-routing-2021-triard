@@ -118,11 +118,11 @@ function App() {
        <Switch>
          <Route path="/mymovie">
            <>
-           {/* <MyMovie 
+            <MyMovie 
               movies={movies}
               onDeleteMovie={handleDeleteMovie}
               onEditMovie={handleEditMovie}
-            /> */}
+            /> 
            </>
          </Route>
          <Route path="/upcomingmovies">
@@ -135,7 +135,7 @@ function App() {
            </>
          </Route>
          <Route path="/upload">
-           {/* <UploadMov /> */}
+            <UploadMov /> 
          </Route>
        </Switch>
      </Layout.Content>
